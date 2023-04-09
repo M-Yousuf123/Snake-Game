@@ -35,7 +35,7 @@ class Scoreboard(Turtle):
             self.high_score = self.score
             self.write_score()
         self.score = 0
-        self.refresh_score()
+        self.update_scoreboard()
 
     def refresh_score(self):
         self.score += 1
